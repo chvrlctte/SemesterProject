@@ -39,3 +39,26 @@ nav > ul > li > a:hover {
     background-color: rgb(255, 38, 38, 0.3)
 }
 /*End of Nav*/
+
+/*Header*/
+header {
+    background-image: url(../images/wheels3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+h1 {
+    font-family: 'Faster One', cursive;
+}
+
+button {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20pt;
+    background-color: rgb(245, 85, 85,0.4);
+}
+/*End of Header*/
+
+/*Footer*/
+/*End of Footer*/
