@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Faster+One&family=Wire+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Faster+One&family=Lato:wght@300&display=swap');
 
 /*Nav*/
 nav {
@@ -47,6 +47,11 @@ header {
     background-position: center;
     height: 250px;
     font-size: 50pt;
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 1em;
 }
 
 header h2 {
@@ -70,9 +75,39 @@ header h3 {
 }
 /*End of Header*/
 
+/*Main*/
+main {
+    background-color: rgb(255, 34, 34,0.5);
+}
+
+section {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    align-items: center;
+    text-align: center;
+}
+
+section > p {
+    font-family: 'Lato', sans-serif;
+    font-size: 20pt;
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+    padding: 0.5em;
+}
+/*End of Main*/
+
 /*Aside*/
-aside {
+aside figure {
     float: right;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+figure img {
+    width: 300px;
 }
 /*End of Aside*/
 
