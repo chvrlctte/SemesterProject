@@ -68,6 +68,12 @@ h1 {
 }
 /*End of Header*/
 
+/*Main*/
+main {
+    background-color: rgb(255, 34, 34,0.5);
+}
+/*End of Main*/
+
 /*Footer*/
 footer {
     width: 100%;
