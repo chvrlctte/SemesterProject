@@ -22,7 +22,7 @@ var images = document.getElementsByTagName('img');
 for (var i = 0; i < images.length; i++) {
   images[i].width = 450;
   images[i].height = 300;
-  images[i].style.padding = '10px';
+  images[i].style.padding = '1em';
   images[i].style.margin = '0 auto';
   images[i].style.display = 'block';
 }
