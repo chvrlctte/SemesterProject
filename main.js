@@ -20,6 +20,9 @@ document.body.appendChild(image3);
 
 var images = document.getElementsByTagName('img');
 for (var i = 0; i < images.length; i++) {
-  images[i].width = 100;
-  images[i].height = 100;
+  images[i].width = 300;
+  images[i].height = 300;
+  images[i].style.padding = '10px';
+  images[i].style.margin = '0 auto';
+  images[i].style.display = 'block';
 }
