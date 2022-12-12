@@ -25,6 +25,8 @@ for (var i = 0; i < images.length; i++) {
   images[i].style.padding = '1em';
   images[i].style.margin = '0 auto';
   images[i].style.display = 'block';
+  images[i].style.cursor = 'pointer';
+
 }
 
 var footer = document.getElementsByTagName('footer')[0];
